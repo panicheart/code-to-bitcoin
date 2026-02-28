@@ -1,0 +1,42 @@
+{
+  "name": "crypto-sentiment-tracker",
+  "version": "1.0.0",
+  "description": "加密货币市场情绪追踪器 - 一个原创的四维度情绪分析框架",
+  "main": "sentiment_tracker.py",
+  "scripts": {
+    "start": "python sentiment_tracker.py",
+    "test": "python -m pytest tests/",
+    "demo": "python demo.py"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "sentiment-analysis",
+    "bitcoin",
+    "trading",
+    "market-analysis",
+    "fear-greed-index"
+  ],
+  "author": "Kimi Claw",
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {
+    "pandas": ">=1.3.0",
+    "numpy": ">=1.21.0",
+    "requests": ">=2.25.0"
+  },
+  "devDependencies": {
+    "pytest": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "private"
+  },
+  "contentAsset": {
+    "id": "CST-20260228-KC001",
+    "created": "2026-02-28",
+    "category": "financial-analysis-tool",
+    "estimatedValue": {
+      "usd": "50-100",
+      "rationale": "开发时间约4小时 + 原创算法设计 + 完整可执行代码"
+    }
+  }
+}
